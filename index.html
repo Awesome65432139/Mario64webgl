@@ -41,9 +41,6 @@
     </style>
   </head>
   <body>
-    <div id="container">
-      <canvas class="emscripten" id="canvas"></canvas>
-    </div>
     <div id="controls">
       <div id="keyboard">
         <h2>Keyboard Controls</h2>
@@ -60,9 +57,12 @@
       <div id="controller">
         <h2>You can use a controller!</h2>
         <h2>You can save!</h2>
-        <h2>Press page up to hide these instructions.</h2>
-        <h2>Press page down to see them again.</h2>
+        <h2>Press page down / alt+down to hide these instructions.</h2>
+        <h2>Press page up / alt+up to see them again.</h2>
       </div>
+    </div>
+    <div id="container">
+      <canvas class="emscripten" id="canvas"></canvas>
     </div>
     <script type='text/javascript'>
       var Module = {
